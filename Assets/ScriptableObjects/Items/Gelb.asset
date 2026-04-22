@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30344452f45122149be7ab00dbee6427, type: 3}
   m_Name: Gelb
   m_EditorClassIdentifier: 
-  Id: gelb
-  DisplayName: Gelb
-  Icon: {fileID: 21300000, guid: 096ce8243287f9341aa62941d0d6baa3, type: 3}
+  Id: "Gr\xFCn"
+  DisplayName: Smaragd
+  Icon: {fileID: 21300000, guid: e79edbe1d071daa4eb3d1d2231d351c5, type: 3}
   MaxStack: 99
   producer: {fileID: 0}
   tier: 1

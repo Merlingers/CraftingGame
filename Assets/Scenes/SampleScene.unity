@@ -194,59 +194,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20553835}
   m_CullTransparentMesh: 1
---- !u!21 &26260881
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Tiny5-Regular Material
-  m_Shader: {fileID: 4800000, guid: 128e987d567d4e2c824d754223b3f3b0, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - OUTLINE_ON
-  - OUTLINE_ON_2
-  - UNDERLAY_ON
-  - USE_VERTEX_COLOR
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _FaceTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: -105920234340948347, guid: 015c6657a4dbfe24d9a37f27a97daa82, type: 2}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _CullMode: 0
-    - _MaskSoftnessX: 0
-    - _MaskSoftnessY: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _VertexOffsetX: 0
-    - _VertexOffsetY: 0
-    m_Colors:
-    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
-    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &26544883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,7 +1910,7 @@ MonoBehaviour:
   calendar: {fileID: 1659260253}
   playerProgress: {fileID: 558589745}
   resourceSlots:
-  - def: {fileID: 0}
+  - def: {fileID: 11400000, guid: 2029820c41421d84a8c259455cbd50cd, type: 2}
     icon: {fileID: 0}
     valueText: {fileID: 0}
     format: 
@@ -2177,8 +2124,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 112, y: -41.358124}
-  m_SizeDelta: {x: 306, y: 87}
+  m_AnchoredPosition: {x: 139.9, y: -12.1}
+  m_SizeDelta: {x: 330.25, y: 315.7288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &544999422
 MonoBehaviour:
@@ -2200,7 +2147,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7743895089552253323, guid: df78c529bb1b4a1479353d9b807eacd9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94420906b74891848ab32b313b167975, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2451,7 +2398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -13.399939, y: -43.75206}
+  m_AnchoredPosition: {x: -13.498, y: -51.791}
   m_SizeDelta: {x: 13.4983, y: 15.748}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &565630834
@@ -2477,7 +2424,7 @@ MonoBehaviour:
   m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 015c6657a4dbfe24d9a37f27a97daa82, type: 2}
-  m_sharedMaterial: {fileID: 26260881}
+  m_sharedMaterial: {fileID: 1734565048}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3618,8 +3565,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 131.5, y: -32.5001}
-  m_SizeDelta: {x: 254, y: 54}
+  m_AnchoredPosition: {x: 143.29, y: -25.848}
+  m_SizeDelta: {x: 286.58, y: 51.6967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &782813414
 MonoBehaviour:
@@ -8502,6 +8449,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719517966}
   m_CullTransparentMesh: 1
+--- !u!21 &1734565048
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tiny5-Regular Material
+  m_Shader: {fileID: 4800000, guid: 128e987d567d4e2c824d754223b3f3b0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - OUTLINE_ON
+  - OUTLINE_ON_2
+  - UNDERLAY_ON
+  - USE_VERTEX_COLOR
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: -105920234340948347, guid: 015c6657a4dbfe24d9a37f27a97daa82, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1749031927
 GameObject:
   m_ObjectHideFlags: 0
@@ -9797,7 +9797,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc6e42f74d8ef04993347777aaa43d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resources: []
+  resources:
+  - def: {fileID: 0}
+    amount: 0
+  - def: {fileID: 0}
+    amount: 0
+  - def: {fileID: 0}
+    amount: 0
 --- !u!1 &1892803555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10443,7 +10449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4579304ceb788b640b9e0deab31061c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d42a03b2286349840b941b2c06b1939c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11102,8 +11108,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36.31067, y: -26.882812}
-  m_SizeDelta: {x: 263, y: 65}
+  m_AnchoredPosition: {x: 3.8, y: -31.7}
+  m_SizeDelta: {x: 263, y: 67.5386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2122320150
 MonoBehaviour:
@@ -11118,14 +11124,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5959472866761755041, guid: db0ac5db70c46464c959027ab5075c2a, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

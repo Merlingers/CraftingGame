@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30344452f45122149be7ab00dbee6427, type: 3}
-  m_Name: Orange
+  m_Name: Knife
   m_EditorClassIdentifier: 
-  Id: "Gelbes\xE4ure"
-  DisplayName: "Gelbe S\xE4ure"
-  Icon: {fileID: 21300000, guid: d9c78573516831749ae62ca8e79f1bd6, type: 3}
+  Id: knife
+  DisplayName: Knife
+  Icon: {fileID: 21300000, guid: 9a40294f9751e72448eeb56fb8429544, type: 3}
   MaxStack: 99
   producer: {fileID: 0}
   tier: 2

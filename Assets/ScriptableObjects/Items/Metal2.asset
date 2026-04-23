@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30344452f45122149be7ab00dbee6427, type: 3}
-  m_Name: "S\xE4ureBlau"
+  m_Name: Metal2
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  Id: "S\xE4ure1"
-  DisplayName: "blaue S\xE4ure"
-  Icon: {fileID: 21300000, guid: d44f28103019b784884ae5ee35631d03, type: 3}
+  Id: Metal2
+  DisplayName: Hard Metal
+  Icon: {fileID: 21300000, guid: 0f0daed73a1893744af719bbb1b11f64, type: 3}
   MaxStack: 99
   producer: {fileID: 11400000, guid: 9e3a59137428ae94a8c0717215c3dc46, type: 2}
   tier: 0
